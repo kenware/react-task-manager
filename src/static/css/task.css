@@ -1,0 +1,14 @@
+.shadow {
+    box-shadow: 0px 0px 1px -1px RGB(0 0 0 / 1%), 0px 1px 1px 0px RGB(0 0 0 / 1%), 0px 1px 1px 0px RGB(0 0 0 / 2%) !important;
+}
+
+.task-section {
+    background: rgba(0, 0, 0, 0.05);;
+}
+.card-header {
+    background: #FFFFFF !important;
+    font-weight: 500 !important;
+}
+.cursor {
+    cursor: pointer;
+}
