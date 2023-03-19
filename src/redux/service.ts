@@ -7,7 +7,7 @@ export const apiSlice = createApi({
     prepareHeaders: (headers: any) => {
       headers.set(
         'authorization',
-        `Bearer ${sessionStorage.getItem('jwtToken')}`,
+        `Bearer ${localStorage.getItem('jwtToken')}`,
       )
       return headers
     },
